@@ -12,7 +12,7 @@
     <!-- <script src="serverClient.js"></script> -->
     <script>
         const img = document.getElementById("image");
-        const WS_URL = "ws:///https://camarafarmax1.azurewebsites.net/:80";
+        const WS_URL = "ws:///https://"+ location.hostname + ":80";
         const ws = new WebSocket(WS_URL);
 
         var urlObject;
